@@ -1,10 +1,9 @@
-a = int(input("Введите число: "))
+a = int(input("Введите количество чисел: "))
 b = 0
-for i in range (1,a+1):
-    if (a%i==0):
+for i in range (a):
+    c = int(input("Введите число: ")) 
+    if (c == 0):
         b += 1
-        print(i, end=" ")
-print ()
-print ("Натуральных делителей числа: ", a, " : ", b)
+print ("Вы ввели: ", b, "нулей")
 
 
